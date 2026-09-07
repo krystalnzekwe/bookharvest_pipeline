@@ -13,14 +13,14 @@ Organise the extracted records into a Pandas DataFrame.
 Securely connect Python to PostgreSQL using environment variables.
 Load the DataFrame into an existing PostgreSQL table.
 ## 3. Technologies Used
-Python for programming
-Requests for HTTP requests
-BeautifulSoup for HTML parsing
-Pandas for Data manipulation
-python-dotenv for configuration
-SQLAlchemy for Database toolkit
-psycopg2 for PostgreSQL driver
-PostgreSQl for Database
+Python for programming,
+Requests for HTTP requests,
+BeautifulSoup for HTML parsing,
+Pandas for Data manipulation,
+python-dotenv for configuration,
+SQLAlchemy for Database toolkit,
+psycopg2 for PostgreSQL driver,
+PostgreSQl for Database and
 VS Code/Jupyter for development
 ## 4. Data Extraction Process
 The scraper first requests the catalogue page and checks the HTTP status code. BeautifulSoup then identifies each book using the article element with class product_pod. For every book card, the script extracts the title from the image alt attribute, the price from p.price_color, the rating from the star-rating class, and availability from p.instock.availability.
