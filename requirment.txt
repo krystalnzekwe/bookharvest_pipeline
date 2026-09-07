@@ -4,3 +4,4 @@ pandas
 psycopg2-binary
 datetime
 python-dotenv
+sqlalchemy
