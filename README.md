@@ -1,4 +1,4 @@
-# book_harvest_project
+
 # BOOKHARVEST WEB SCRAPING & DATA PIPELINE
 ## Project Report
 *Web Data Extraction, Transformation and PostgreSQL Loading*
