@@ -62,6 +62,3 @@ Add request timeouts and controlled delays for more robust scraping.
 Handle errors when individual book-detail pages cannot be retrieved.
 Verify row counts in PostgreSQL after each load.
 Separate extraction, transformation and loading into reusable functions as the project matures.
-## 12. Conclusion
-The BookHarvest project demonstrates an end-to-end ETL workflow in Python. It retrieves web data, parses and transforms the data, organises it in a DataFrame, and loads the result into PostgreSQL. The project also demonstrates practical database credential management, pagination, data-type conversion and database integration.
-The principal next enhancement is genre extraction from the individual book pages, followed by duplicate prevention and stronger validation. These improvements would make the pipeline more reliable for repeated execution and closer to a production-quality data pipeline.
